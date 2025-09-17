@@ -1,0 +1,242 @@
+#print the 2 numbers
+num1=int(input("Enter "))
+num2=int(input("enter"))
+print(num1)
+print(num2)
+
+#sum of 2 numbers
+num1=int(input("Enter "))
+num2=int(input("enter"))
+a= num1+num2
+print(" sum of two numbers is:",a)
+
+#cascading two names
+name1=input("enter")
+name2=input("enter")
+c=name1+name2
+print(c)
+
+# swapinfg of two numbers without 3rd variable
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+a=a+b
+b=a-b
+a=a-b
+print("after swaping:",a)
+print("after swaping:",b)
+
+# swapinfg of two numbers with 3rd variable
+a=int(input("enter"))
+b=int(input("enter"))
+c=a
+a=b
+b=c
+print(a)
+print(b)
+
+#primitives
+print(10,type(10))
+print(12.365,type(12.365))
+print(True,type(True))
+
+#avg of 3 numbers
+a = int(input("Enter the value of a"))
+b = int(input("Enter the value of b"))
+c = int(input("Enter the value of c"))
+sum=a+b+c
+avg=sum/3
+print("avg of three numbers:",avg)
+
+
+#conversion of minutes ainto seconds
+a=int(input("enter the value"))
+seconds= a*60
+print("min in seconds is:",seconds)
+
+#multiplication of 2 numbers
+a = int(input("Enter the value of a"))
+b = int(input("Enter the value of b"))
+mul = a*b
+print("multiplication of two numbers is :",mul)
+
+
+#greater of three numbers
+a = int(input("Enter the value of a"))
+b = int(input("Enter the value of b"))
+c = int(input("Enter the value of c"))
+greater=max(a,b,c)
+print("greater in this 3 is:",greater)
+
+#square of number
+n = int(input("Enter the value of a"))
+sum=n**2
+print(sum)
+
+#positive or negative
+a = int(input("Enter the value of a"))
+if(a>0):
+    print("a is positive")
+elif(a<0):
+    print("a is negative")
+else:
+    print("zero")
+
+
+#even or odd
+a = int(input("Enter the value of a"))
+if(a%2==0):
+    print("a is an even number")
+else:
+    print("a is an odd number")
+
+#divisible
+a=int(input("enter")
+    if(a%5==0 and a%11==0):
+      print("it is divisible")
+    else:
+      print("it is non divisible")
+
+
+#passed or not
+a = int(input("Enter the value of a"))
+b = int(input("Enter the value of b"))
+total=a+b
+if(a>=35 and b>=15 and total>=50):
+    print("passed")
+else:
+    print("not pased")
+
+#age program
+age=int(input("Enter the age"))
+if(age<18):
+    print("person is child")
+elif(age>=18 and age<=50):
+    print("person is Adult")
+elif(age>50):
+    print("perosn is old")
+else:
+    print("not a human")
+
+
+#grade
+name=input("enter the name")
+marks=int(input("enter the marks"))
+if(marks>=90):
+    print("A")
+    print("EXCELLENT")
+elif(marks>=80 and marks<=89):
+    print("B")
+    print("GOOD")
+elif(marks>=70 and marks<=79):
+    print("C")
+    print("NOT BAD")
+elif(marks>=60 and marks<=69):
+    print("D")
+    print(" BAD")
+else:
+    print("FAILED")
+
+
+#days in a week
+day=int(input("enter the number"))
+if(day==1):
+        print("MONDAY")
+if(day==2):
+        print("TUESDAY")
+if(day==3):
+        print("WEDNESDAY")
+if(day==4):
+        print("THURSDAY")
+if(day==5):
+        print("FRIDAY")
+if(day==6):
+        print("SATURDAY")
+if(day==7):
+        print("SUNDAY")
+
+
+#acces sprograsam
+username=int(input("ENTER THE USER NAME"))
+password=int(input("ENTER THE PASSWORD"))
+if(username==5555 and password==2245):
+    print("ACCESS GRANTED")
+else:
+    print("ACCESS NOT GRANTED")
+
+#simple calculator
+a = int(input("Enter the value of a"))
+b = int(input("Enter the value of b"))
+operator=input("enter operator(+,-,*,/,%):")
+if(operator=="+"):
+    print(a+b)
+elif(operator=="-"):
+    print(a-b)
+elif(operator=="*"):
+    print(a*b)
+elif(operator=="/"):
+    print(a/b)
+elif(operator=="%"):
+    print(a%b)
+else:
+    print("invalid")
+
+#month program
+month=int(input("enter the month number"))
+if(n==2):
+    print("28 or 29 days")
+elif(n==1,3,5,6,8,9,12):
+    print("31 days")
+elif(n==4,7,10,11):
+    print("30 days")
+else:
+    print("invalid month")
+
+
+#temperature
+temp=float(input("enter the value of temperature"))
+if(temp<37):
+    print("BODY IS COLD")
+elif(temp==37):
+    print("BODY IS NORMAL")
+else:
+    print("BODY IS FEVER")
+
+#lunch program
+def sum_of_cubes(m,n):
+    total=0
+    st = min(m,n)
+    en = max(m,n)
+    for i in range(st,en+1):
+        total=total+i**3
+     return total
+print(sum_of_cubes(9,2))
+
+#logical operators
+a = 10
+b = 5
+
+
+print("AND example:")
+print(a > 5 and b < 10) 
+print(a > 15 and b < 10) 
+
+
+print("\nOR example:")
+print(a > 5 or b > 10)  
+print(a < 5 or b > 10)   
+
+#non primitive
+fruits = ["apple", "banana", "cherry"]
+print("List example:", fruits)
+
+
+colors = ("red", "green", "blue")
+print("Tuple example:", colors)
+
+numbers = {1, 2, 3, 2}
+print("Set example (no duplicates):", numbers)
+
+
+person = {"name": "Alice", "age": 25}
+print("Dictionary example:", person)
+
