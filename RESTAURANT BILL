@@ -1,0 +1,30 @@
+print("welcome to ABC restaurant")
+print("menu")
+print("1.Tiffins : 50 rupees")
+print("2.Lunch : 100 rupees")
+print("3.Juice : 35 rupees")
+print("4.snacks : 30 rupees")
+item=int(input("enter the number of item "))
+no_of_items=int(input("enter the number of items you requires "))
+if(item ==1):
+    print("tiffins")
+    print("price for 1 item 50 rupees")
+    total_price=no_of_items*50
+    print("price",total_price)
+elif(item==2):
+    print("lunch")
+    print("price for 1 item 100 rupees")
+    total_price=no_of_items*100
+    print("price",total_price)
+elif(item==3):
+    print("juice items")
+    print("price for 1 item 35 rupees")
+    total_price=no_of_items*35
+    print("price",total_price)
+elif(item==4):
+    print("snacks")
+    print("price for 1 item 30 rupees")
+    total_price=no_of_items*30
+    print("price",total_price)
+else:
+    print("Unavailable item")
