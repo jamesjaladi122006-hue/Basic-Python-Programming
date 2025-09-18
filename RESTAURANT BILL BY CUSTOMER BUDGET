@@ -1,0 +1,47 @@
+print("WELCOME TO JAMES RESTAURANT")
+amount=int(input("enter the amount"))
+if(amount>=20 and amount<=35):
+    print("WE HAVE: ")
+    print("TIFFINS : DOSA")
+    print("TIFFINS : IDLY")
+    print("TIFFINS: BONDA")
+elif(amount>=40 and amount<=60):
+    print("WE HAVE: ")
+    print("JUICE: PINEAPPALE")
+    print("JUICE : SAPOTA")
+    print("JUICE: BANANA")
+elif(amount>80 and amount<=100):
+    print("WE HAVE: ")
+    print("LUNCH : RICE WITH BRINJAL CURRRY")
+    print("LUNCH : RICE WITH POTATO CURRY")
+    print("LUNCH: RICE WITH DAL WITH MANGO PICKLE")
+elif(amount>=60 and amount<=80):
+    print("WE HAVE: ")
+    print("SNACKS: VEG PUFF WITH SPRITE AND ONE LOLLYPOP")
+    print("SNACKS : CHICKEN PUFF WITH COKE")
+    print("SNACKS: EGG PUFF WITH THUMBSUP")
+else:
+    print("we dont have any item on your price")
+no_of_items=int(input("enter the number of items you requires "))
+if(amount>=20 and amount<35):
+    print("tiffins")
+    print("price for 1 item 30 rupees")
+    total_price=no_of_items*30
+    print("price",total_price)
+elif(amount>80 and amount<100):
+    print("lunch")
+    print("price for 1 item 100 rupees")
+    total_price=no_of_items*100
+    print("price",total_price)
+elif(amount>=40 and amount<60):
+    print("juice items")
+    print("price for 1 item 50 rupees")
+    total_price=no_of_items*50
+    print("price",total_price)
+elif(amount>=60 and amount<80):
+    print("snacks")
+    print("price for 1 item 50 rupees")
+    total_price=no_of_items*70
+    print("price",total_price)
+else:
+    print("Unavailable item SORRY")
