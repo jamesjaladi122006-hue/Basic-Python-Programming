@@ -1,0 +1,8 @@
+def sum_of_cubes(m,n):
+    total=0
+    st = min(m,n)
+    en = max(m,n)
+    for i in range(st,en+1):
+        total=total+i**3
+    return total
+print(sum_of_cubes(9,2))
