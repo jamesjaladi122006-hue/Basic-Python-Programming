@@ -1,0 +1,17 @@
+
+def binary_search(arr, target):
+    lb = 0
+    ub = len(arr) - 1
+    while lb <=ub:
+        mid = (lb + ub) // 2
+        if arr[mid] == target:
+            print("I FOUND THE TARGET")
+            return mid
+        elif arr[mid] < target:
+            lb = mid + 1
+        else:
+            ub = mid - 1
+    print("Target not found")
+    return -1 
+arr = [10, 20, 30, 40, 50,1,2,3,6,5,4,7,8,9,58,5,8,5,41,5,854,4569,654,974,97,9]
+binary_search(arr, 8)
