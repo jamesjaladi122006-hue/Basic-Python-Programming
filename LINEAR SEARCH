@@ -1,0 +1,10 @@
+def linear_search(arr,target):
+    for i in range(len(arr)):
+        if(arr[i]==target):
+            print("IT IS FOUND")
+            return i
+    print("IT IS NOT FOUND")
+    return -1
+    
+arr=[1,2,3,4,5]
+linear_search(arr,5)
